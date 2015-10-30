@@ -9,4 +9,27 @@ value do you think it offers?
     The staging area is a previous stage before commiting; it would be use to make sure all the 
     required files are in the commit before going into the repository which will keep a log or
     history of our versions. The woking directory is where many changes take place on the file
-    until a version is good enough to be commited 
+    until a version is good enough to be commited
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    I would use the command 'git diff --staged' to make sure that my file or files related are 
+    ready and regrouped for an specific commit or logical change. 
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+    
+    It would help when a new feature is gonna be added. Or an experiment
+
+How do the diagrams help you visualize the branch structure?
+    
+    easy to follow the commits made on different branches
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    Merging to branches helps mantain all the commits from the master and the new_branch and the way
+    they are represented is because the commits happen in parallel until the merge
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    Git helps with most of the merge because usually 2 developer shouldn't work on the same line of code
